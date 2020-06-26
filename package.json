@@ -1,7 +1,7 @@
 {
   "name": "iblis-cli-token-google-oauth-web-server",
   "description": "Cli to create access token for google sheets and google drive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Vincent Delacourt @vdelacou",
   "bin": {
     "getGooToken": "./bin/run"
