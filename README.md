@@ -24,13 +24,12 @@ At the end, the cli will create a `.env` file with the Google `ClientId` / `Clie
 # Usage
 
 ```sh-session
-$ npm install -g iblis-cli-token-google-oauth-web-server
-$ getGooToken
+$ npx iblis-cli-token-google-oauth-web-server getGooToken
 ```
 
 or 
 
 ```sh-session
-$ npx iblis-cli-token-google-oauth-web-server getGooToken
+$ npm install -g iblis-cli-token-google-oauth-web-server
+$ getGooToken
 ```
-
