@@ -1,0 +1,54 @@
+{
+  "name": "iblis-cli-token-google-oauth-web-server",
+  "description": "Cli to create access token for google sheets and google drive",
+  "version": "0.0.1",
+  "author": "Vincent Delacourt @vdelacou",
+  "bin": {
+    "getGooToken": "./bin/run"
+  },
+  "bugs": "https://github.com/vdelacou/iblis-cli-token-google-oauth-web-server/issues",
+  "dependencies": {
+    "@oclif/command": "^1.6.1",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "googleapis-common": "^4.4.0"
+  },
+  "devDependencies": {
+    "tslib": "^1.13.0",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^3.1.0",
+    "@oclif/dev-cli": "^1.22.2",
+    "@types/express": "^4.17.6",
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^10.17.26",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/vdelacou/iblis-cli-token-google-oauth-web-server",
+  "keywords": [
+    "cli",
+    "google drive",
+    "google sheets",
+    "OAuth 2.0",
+    "Web Server",
+    "token"
+  ],
+  "license": "Apache License 2.0",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "getGooToken"
+  },
+  "repository": "vdelacou/iblis-cli-token-google-oauth-web-server",
+  "types": "lib/index.d.ts"
+}
